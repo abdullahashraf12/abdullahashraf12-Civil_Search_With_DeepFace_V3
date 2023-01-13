@@ -10,7 +10,7 @@ from PyQt5.QtCore import pyqtSignal
 def main():
     
     app = QApplication([])
-    x=MainWindow(None)
+    x=MainWindow()
     sys.exit(app.exec())
 
 main()

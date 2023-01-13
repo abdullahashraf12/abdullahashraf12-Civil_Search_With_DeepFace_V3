@@ -16,7 +16,7 @@ from numba import jit,cuda
 
 class MainWindow(QtWidgets.QMainWindow,Ui_My_App):
 
-    def __init__(self,path_image):
+    def __init__(self,path_image=""):
         super(MainWindow, self).__init__()
         self.setupUi(self)
         self.upload_photo_button.clicked.connect(self.upload_photo_dialog)
